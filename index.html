@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Merry Chrismass</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-head container_head-img">
+        <div class="header">
+          <header class="header_title">Новогодний подарок</header>
+          <p class="header text">
+            Новый год настает, многое сбывается! <br />
+            У того, кто не сдается, много получается!<br />
+            Слишком свыше не проси, что твое - прибудет.<br />
+            Новый год, обязательно, только лучше будет!
+          </p>
+          <button class="btn btn_next" type="button">
+            Вперед за подарками
+          </button>
+        </div>
+      </div>
+      <div class="container-quiz text hidden">
+        <div class="quiz_intro">
+          <h3 class="quiz_intro-text">
+            Ага! Хоть сегодня и Новогодний вечер,<br />
+            без интерактива не обойдется!
+          </h3>
+          <button class="btn quiz_btn-intro" type="button" id="btnResutl">
+            Пройти мини опрос
+          </button>
+        </div>
+        <div class="quiz_questions hidden">
+          <div class="quiz_question1">
+            <p>Когда первый раз встретились?</p>
+            <div class="question1-inputs">
+              <input
+                type="checkbox"
+                class="r1"
+                name="r1"
+                id="Answer1"
+                value="june"
+              /><label for="Answer1">29 Июля</label>
+              <input
+                type="checkbox"
+                class="r1"
+                name="r1"
+                id="Answer2"
+                value="augsix"
+              /><label for="Answer2">6 Августа</label>
+              <input
+                type="checkbox"
+                class="r1"
+                name="r1"
+                id="Answer3"
+                value="augtf"
+              /><label for="Answer3">24 августа</label>
+            </div>
+
+            <div class="question1_quiz-note hidden">
+              <p>
+                Часть твоего подарка ровно у тебя за спиной, за подушкой)
+                <br />Развернись, возьми его и после жми кнопку ниже !
+              </p>
+              <button class="btn q1next" type="button" id="btnResutl">
+                Следующий вопрос
+              </button>
+            </div>
+          </div>
+
+          <div class="quiz_question2 hidden">
+            <p>Мой любимый цвет - это</p>
+            <div class="question2-inputs">
+              <input
+                type="checkbox"
+                class="r2"
+                name="r2"
+                id="Answer4"
+                value="black"
+              /><label for="Answer4">Черный</label>
+              <input
+                type="checkbox"
+                class="r2"
+                name="r2"
+                id="Answer5"
+                value="red"
+              /><label for="Answer5">Красный</label>
+              <input
+                type="checkbox"
+                class="r2"
+                name="r2"
+                id="Answer6"
+                value="green"
+              /><label for="Answer6">Зеленый</label>
+            </div>
+
+            <div class="question2_quiz-note hidden">
+              <p>
+                Вторая часть уже спряталась в кармане твоей куртки!
+                <br />Чудеса да и только! (подсказка: в правом)
+              </p>
+              <button class="btn q2next" type="button" id="btnResutl">
+                Следующий вопрос
+              </button>
+            </div>
+          </div>
+
+          <div class="quiz_question3 hidden">
+            <p>Что еще надо?</p>
+            <div class="question3-inputs">
+              <input
+                type="checkbox"
+                class="r3"
+                name="r3"
+                id="Answer7"
+                value="chocolate"
+              /><label for="Answer7">Шоколада</label>
+              <input
+                type="checkbox"
+                class="r3"
+                name="r3"
+                id="Answer8"
+                value="all"
+              /><label for="Answer8">Всего и побольше</label>
+              <input
+                type="checkbox"
+                class="r3"
+                name="r3"
+                id="Answer9"
+                value="marshmellow"
+              /><label for="Answer9">Мармелада</label>
+            </div>
+
+            <div class="question3_quiz-note hidden">
+              <p>Ты уверена что не хочешь всего и побольше?</p>
+              <button class="btn q3next" type="button" id="btnResutl">
+                уверена
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blackscreen hidden">
+        <p>вот так вот бывает когда хочется все и сразу..</p>
+        <button class="btnblack" type="button" id="btnResutl">починить</button>
+      </div>
+      <div class="endscreen hidden">
+        <div class="endart">
+          <p class="endart-text">
+            Новый год - праздник для всех,<br />
+            В Новый год в лучшее верится,<br />
+            Все что желаешь ты - произойдет,<br />
+            Все что не клеилось - склеится!<br />
+            <br />
+            Думай о нужном в праздничный час,<br />
+            О сокровенном и искреннем!<br />
+            Мы друг у друга есть здесь и сейчас!<br />
+            Пусть разгорается искорка! <br />
+            <br />
+            С НОВЫМ ГОДОМ =***
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="scrypts.js"></script>
+  </body>
+</html>
